@@ -1,6 +1,6 @@
 import random
 import string
-import getpass
+import stdiomask
 
 def strength(input_string): 
 	
@@ -35,11 +35,7 @@ def strength(input_string):
 	else: 
 		print("Weak") 
 
-
-	
-input_string = getpass.getpass("Enter Your Password: ")
-
-strength(input_string) 
+stdiomask.getpass("Enter your password: ")
 
 answer = input("Do you want me to create a password for you?\nPlease enter Yes or No: ").lower()
     
