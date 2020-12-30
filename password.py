@@ -1,5 +1,6 @@
 import random
 import string
+import getpass
 
 def strength(input_string): 
 	
@@ -36,7 +37,7 @@ def strength(input_string):
 
 
 	
-input_string = input("Enter Your Password: ")
+input_string = getpass.getpass("Enter Your Password: ")
 
 strength(input_string) 
 
